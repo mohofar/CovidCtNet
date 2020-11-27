@@ -7,7 +7,7 @@ project is provided inside the codes.
 ![Pipeline](/images/image_2020-04-26_14-48-21.png)
 
 ## Weights
-You can find trained weights in `Model_weights` folder.
+You can find trained weights in `Model_weight` folder.
 
 ## Dicom file
 
