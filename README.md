@@ -33,21 +33,6 @@ For testing the model on your dataset, please follow this list:
 2.  Run all cells of `/Code/preprocessing/preprocessing-step-2.ipynb` in sequential order.
 3.  Run all cells of `/Code/training and testing/Testing-CovidCTNet.ipynb`in sequential order.
 
-### Test data
-If you want to test our model, visulize the images and etc, please download the dataset from the following links and put them in `/preprocessed/ct-normal-slices-test` folder. Using them you can skip preprocessing steps (1&2).
-
-| Description | Link to .npy array |
-| ------ | ------ |
-| COVID-19 case No.1| [Download](https://drive.google.com/file/d/1-AP07TKRAqQbd9EnYJgU3FZykjgztNeW/view?usp=sharing) |
-| COVID-19 case No.2| [Download](https://drive.google.com/file/d/1-HLUScpgGFi5lL-NJ4JI_OKgqwa8UsCl/view?usp=sharing) |
-| COVID-19 case No.3| [Download](https://drive.google.com/file/d/1-KyXYh8Y-r6__fNECOTZV9drhTJuOwT-/view?usp=sharing) |
-| Control case No.1| [Download](https://drive.google.com/file/d/10YTyUdOmIuIPq1W0OI1qB9cBr_uHJVMZ/view?usp=sharing) |
-| Control case No.2| [Download](https://drive.google.com/file/d/10Zj_6F6tY86mtivNCGbUHQUP07x5-_EH/view?usp=sharing) |
-| Control case No.3| [Download](https://drive.google.com/file/d/10ct3YQAyNWr0fLdFZp6QElaOFR4z1XgR/view?usp=sharing) |
-| CAP case No.1| [Download](https://drive.google.com/file/d/11QBndF4aHwrJRZeC8HxmRk1hzODvBiOz/view?usp=sharing) |
-| CAP case No.2| [Download](https://drive.google.com/file/d/11Twu7LyWmPbELhHRptm50Eq7lHbKEYKA/view?usp=sharing) |
-| CAP case No.3| [Download](https://drive.google.com/file/d/11WYfgEFuWaIrWpjpEbzFvRntmmJ8zId5/view?usp=sharing) |
-
 
 ** Please make sure you have enough space on your drive. Step 1 and 2 of preprocessing will convert your dcm file to numpy files to use and
 all subfolders in `preprocessed` folder will be occupied with referred numpy files. If you have any problem with the space in your drive you can increase spacing
