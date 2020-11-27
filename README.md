@@ -1,19 +1,13 @@
 # COVIDCTNET
 
 Here is an implementation of CovidCTNet model for the prediction of COVID-19 cases based on CT images. 
-For more detail about the project please use [this link](Hi my name is MOHOFAR!) to access the paper.
+For more detail about the project please use [this link](https://arxiv.org/abs/2009.05096) to access the paper.
 These codes are implemented on Google Colab and for Neural Networks models we use Keras. Any library you need for this
 project is provided inside the codes.
 ![Pipeline](/images/image_2020-04-26_14-48-21.png)
 
 ## Weights
-Please download weights' files and add them to "Model_wight" folder.
-
-| Description | Link to weights |
-| ------ | ------ |
-| [Trained BCDUNet on Kaggle dataset](https://github.com/rezazad68/BCDU-Net) | [Download](https://drive.google.com/file/d/1FBwUhJGf3NO3XCmKhoSMbVY2hv-yha7O/view?usp=sharing) |
-| Trained BCDUNet on our dataset | [Download](https://drive.google.com/file/d/13eM-IPxnWUWhO8_rEyFCOLzfoWaeSdhX/view?usp=sharing) | 
-| Trained 3D-CNN for final classification| [Download](https://drive.google.com/file/d/150ek_97M-j4BM1xrSnxoSXbQkGwygRr6/view?usp=sharing)|
+You can find trained weights in `Model_weights` folder.
 
 ## Dicom file
 
@@ -30,9 +24,6 @@ Following steps can be helpful for your training:
 3.  Run all cells of `/Code/training and testing/Training-CovidCTNet.ipynb`in sequential order.
 
 * If you want to train the model from scratch, don't use any weight loading in step 3.
-*  If you want to train the model of BCDUNet there are two weights available in `Weights` table. (1) `Trained BCDUNet on Kaggle dataset` (Follow its link for more description) is a model 
-which we have used for initializing weights for training our model. It is trained on lung segmentation task. (2) If you want to use a trained model on our dataset, please use `Trained BCDUNet on our dataset` weights
-which is the results of our training.
 * To train the 3D CNN model and classify if the CT image of the new patient is COVID-19, CAP or Control; you can either initialize weights of our trained model in the third link at the table, or train from the scratch on your own.
 
 ## How to test the model
