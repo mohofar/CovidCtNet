@@ -1,7 +1,7 @@
 # COVIDCTNET
 
 Here is an implementation of CovidCTNet model for the prediction of COVID-19 cases based on CT images. 
-For more detail about the project please use [this link](https://arxiv.org/abs/2009.05096) to access the paper.
+For more detail about the project please use [this link](https://www.nature.com/articles/s41746-021-00399-3) to access the paper.
 These codes are implemented on Google Colab and for Neural Networks models we use Keras. Any library you need for this
 project is provided inside the codes.
 ![Pipeline](/images/image_2020-04-26_14-48-21.png)
